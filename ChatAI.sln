@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.34607.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatAI.Web", "ChatAI.Web\ChatAI.Web.csproj", "{5812BBD6-98F8-46D4-B86F-6F1E154AC55C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorClassLibrary", "RazorClassLibrary\RazorClassLibrary.csproj", "{97AE9AB4-920F-43CF-AFD1-22383AC06F45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorClassLibrary", "RazorClassLibrary\RazorClassLibrary.csproj", "{97AE9AB4-920F-43CF-AFD1-22383AC06F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatAI.MAUI", "ChatAI.MAUI\ChatAI.MAUI.csproj", "{475B2AAC-FB9F-4C12-B7B5-891D82CA3EC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,12 @@ Global
 		{97AE9AB4-920F-43CF-AFD1-22383AC06F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97AE9AB4-920F-43CF-AFD1-22383AC06F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97AE9AB4-920F-43CF-AFD1-22383AC06F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475B2AAC-FB9F-4C12-B7B5-891D82CA3EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475B2AAC-FB9F-4C12-B7B5-891D82CA3EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475B2AAC-FB9F-4C12-B7B5-891D82CA3EC5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{475B2AAC-FB9F-4C12-B7B5-891D82CA3EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475B2AAC-FB9F-4C12-B7B5-891D82CA3EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475B2AAC-FB9F-4C12-B7B5-891D82CA3EC5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
